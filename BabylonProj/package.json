@@ -10,7 +10,11 @@
     "lighting01build": "tsc && vite build lighting01",
     "lighting01preview": "vite preview lighting01 --host",
     "Shapes01build": "tsc && vite build lighting01",
-    "Shapes01preview": "vite preview lighting01 --host"
+    "Shapes01preview": "vite preview lighting01 --host",
+    "motion03build": "tsc && vite build motion03",
+    "motion03preview": "vite preview motion03 --host",
+    "collision03build": "vite build collision03v2",
+    "collision03preview": "vite preview collision03v2 --host"
   },
   "devDependencies": {
     "@babylonjs/core": "^8.38.0",
