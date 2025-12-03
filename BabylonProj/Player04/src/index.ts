@@ -1,7 +1,7 @@
 import { Engine } from "@babylonjs/core";
 import createStartScene from "./createStartScene";
 import './main.css';
-import {createCharacterController} from "./createCharacterController";
+import {createCharacterController} from "./CharacterController";
 import { gui } from "./gui";
 import { setupCollisions } from "./collisions";
 import { SceneData } from "./interfaces";
