@@ -1,4 +1,4 @@
-// vite.config.js
+// vite.config.ts
 import { defineConfig } from "vite";
 export default defineConfig({
   // config options
@@ -27,5 +27,8 @@ export default defineConfig({
       }
   },
 });
+
+// https://forum.babylonjs.com/t/importing-and-implementing-havok-in-vite-react-ts-project-fails/48441/4
+
 
 // https://forum.babylonjs.com/t/importing-and-implementing-havok-in-vite-react-ts-project-fails/48441/4

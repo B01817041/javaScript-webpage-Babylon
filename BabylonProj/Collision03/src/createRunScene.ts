@@ -57,10 +57,6 @@ export default function createRunScene(runScene: SceneData) {
   runScene.scene.onBeforeRenderObservable.add(() => {
     // check and respond to keypad presses
 
-    if (getKeyDown() == 1 && (keyDownMap["m"] || keyDownMap["M"])) {
-      keyDownHeld();
-    }
-
     runScene.player.then((result) => {
       let characterMoving: Boolean = false;
       let character: AbstractMesh = result!.meshes[0];
@@ -102,8 +98,7 @@ export default function createRunScene(runScene: SceneData) {
   // add incremental action to player
   runScene.player.then((result) => {
     let characterMesh = result!.meshes[0];
-    characterActionManager(runScene.scene, characterMesh as Mesh);
-  });
+     });
 
   runScene.scene.onAfterRenderObservable.add(() => {});
 }

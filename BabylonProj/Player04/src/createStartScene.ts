@@ -120,8 +120,8 @@ function addAssets(scene: Scene) {
   const tree2 = assetsManager.addMeshTask(
     "tree1 task",
     "",
-    "./assets/nature/gltf/",
-    "CommonTree_2.gltf"
+    "./assets/gltf/",
+    "BirchTree_2.gltf"
   );
   tree2.onSuccess = function (task) {
     task.loadedMeshes[0].position = new Vector3(0, 0, 2);
@@ -134,8 +134,8 @@ function addAssets(scene: Scene) {
   const tree3 = assetsManager.addMeshTask(
     "tree1 task",
     "",
-    "./assets/nature/gltf/",
-    "CommonTree_3.gltf"
+    "./assets/gltf/",
+    "BirchTree_3.gltf"
   );
   tree3.onSuccess = function (task) {
     task.loadedMeshes[0].position = new Vector3(-3, 0, 2);

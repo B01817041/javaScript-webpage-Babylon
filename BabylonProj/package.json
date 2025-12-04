@@ -15,10 +15,10 @@
     "villagepreview": "vite preview village --host",
     "collision03build": "vite build collision03",
     "collision03preview": "vite preview collision03 --host",
-    "player04build": "vite build collision03",
-    "player04preview": "vite preview collision03 --host",
-    "GUIswapbuild": "vite build collision03",
-    "GUIswappreview": "vite preview collision03 --host"
+    "player04build": "vite build player04",
+    "player04preview": "vite preview player04 --host",
+    "GUIswapbuild": "vite build GUIswap",
+    "GUIswappreview": "vite preview GUIswap --host"
   },
   "devDependencies": {
     "@babylonjs/core": "^8.38.0",
