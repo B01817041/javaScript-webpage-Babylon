@@ -98,8 +98,8 @@ function addAssets(scene: Scene) {
   const tree1 = assetsManager.addMeshTask(
     "tree1 task",
     "",
-    "./assets/nature/gltf/",
-    "CommonTree_1.gltf"
+    "./assets/gltf/",
+    "BirchTree_1.gltf"
   );
   tree1.onSuccess = function (task) {
     const root = task.loadedMeshes[0];

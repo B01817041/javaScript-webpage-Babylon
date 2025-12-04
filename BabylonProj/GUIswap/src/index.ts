@@ -21,8 +21,6 @@ let eng = new Engine(canvas, true, {}, true);
 let gui = menuScene(eng);
 scenes[0] = createScene1(eng);
 scenes[1] = createScene2(eng);
-scenes[2] = createScene3(eng);
-scenes[3] = createScene4(eng);
 scene = scenes[0].scene;
 setSceneIndex(0);
 
